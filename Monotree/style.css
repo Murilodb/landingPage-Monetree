@@ -156,3 +156,20 @@ main aside .celular {
     width: 50em;
 
 }
+
+footer{
+    position: relative;
+    top: 120px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  text-align: center;
+  font-size: 14px;
+  padding: 20px; 
+}
+.cookies{
+    position: relative;
+    top: 10px;
+    left: 6px;
+    width: 30px;
+    height: auto;
+}
