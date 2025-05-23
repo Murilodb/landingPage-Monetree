@@ -6,6 +6,7 @@
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background: rgb(255, 255, 255);
+    overflow: hidden;
 }
 
 header {
@@ -158,13 +159,13 @@ main aside .celular {
 }
 
 footer{
-    position: relative;
-    top: 120px;
+  position: relative;
   background-color: rgb(255, 255, 255);
   color: black;
   text-align: center;
   font-size: 14px;
-  padding: 20px; 
+  padding: 20px;
+  top: 20px; 
 }
 .cookies{
     position: relative;
