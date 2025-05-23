@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgb(255, 255, 255);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 45px;
+    
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    width: 50px;    
+}
+
+header .navigation ul{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+header .navigation ul li a{
+    color: rgb(56, 54, 54);
+    
+}
+
+header .navigation ul li a:hover{
+    font-size: large;
+    transition: 0.1s;  
+}
+
+
+header .navigation ul li button{
+    border: transparent;
+    border-radius: 10px;
+    padding: .6em;
+    background: rgb(235, 235, 235);
+    font-weight: bold;
+    cursor: pointer;
+}
+header .navigation ul li button:hover{
+    padding: .8em;
+    background: rgb(230, 230, 230);
+    transition: all .1s;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+}
+main section {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2.5rem;
+    flex-basis: 40%;
+
+}
+
+main section h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+
+}
+main section .btn-box{
+    margin-top: 40px;
+    padding: 25px 25px;
+    width: 400px;
+    flex-direction: row;
+}
+
+main section .btn-box input{
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid rgb(215, 215, 215);
+    outline: none;
+}
+
+main section .btn-box input:hover{
+    padding: 25px;
+
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    transition: all .1s;
+}
+main section .btn-box input:focus{
+    padding: 25px;
+    background: #f3f2f2;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    transition: all .1s;
+}
+
+
+
+main section .btn-box button{
+    height: 50px;
+    width: 100px;
+    border-radius: 15px;
+    border: 1px solid rgb(215, 215, 215);
+    background-color: rgb(47, 255, 61);
+    cursor: pointer;
+}
+main section .btn-box button:hover{
+    height: 55px;
+    width: 110px;
+    background-color: rgb(53, 247, 66);
+    transition: all .1s;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+}
+
+main section .info {
+    display: flex;
+    margin-top: 40px;
+    padding-bottom: 10px;
+    gap: 25px;
+    border-bottom: 2px solid #f3f2f2;
+}
+main section .info .value-1{
+    padding-right: 20px;
+    border-right: 2px solid #f3f2f2;
+}
+
+main section .info .value-1 h2{
+    font-size: 40px;
+    font-weight: lighter;
+}
+main section .info .value-1 p{
+    font-size: 10px;
+
+}
+
+main section .info .value-2 h2{
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+main section .info .value-2 p{
+    font-size: 10px;
+
+}
+
+main aside {
+    flex: 3;
+}
+
+main aside .celular {
+    width: 50em;
+
+}
